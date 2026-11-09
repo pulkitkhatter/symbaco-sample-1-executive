@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://symbaco-sample-1-executive.vercel.app/sitemap.xml
