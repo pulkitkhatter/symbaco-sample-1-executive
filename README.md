@@ -1,6 +1,6 @@
-# Symbaco Partners, LLC — Sample 1: Executive
+# Symbaco Partners, LLC — Sample 1: Rings
 
-Editorial serif design, ivory & navy with gold. One page + Learning page.
+Clean white design with a rings diagram. One page + Learning page.
 
 Plain HTML/CSS/JS, no build step. Live: https://symbaco-sample-1-executive.vercel.app
 
