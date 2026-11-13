@@ -20,6 +20,9 @@
     map.forEach(function(m){spy.observe(m.el)});
   }
 
+  // buttons that pre-select the service in the contact form
+  [].slice.call(document.querySelectorAll('[data-service]')).forEach(function(a){a.addEventListener('click',function(){var s=document.querySelector('#contact-form select[name=service]');if(s)s.value=a.getAttribute('data-service')})});
+
   // contact form
   var f=document.getElementById('contact-form');
   if(f){f.addEventListener('submit',function(ev){
