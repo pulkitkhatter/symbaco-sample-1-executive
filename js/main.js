@@ -31,7 +31,7 @@
     var d=new FormData(f),name=d.get('name'),email=d.get('email'),co=d.get('company')||'-',svc=d.get('service'),msg=d.get('message');
     if(!CONTACT_EMAIL){s.className='note err';s.textContent='Our contact form is being connected. Please check back shortly.';return}
     var body='Name: '+name+'\nEmail: '+email+'\nCompany: '+co+'\nInterested in: '+svc+'\n\n'+msg;
-    window.location.href='mailto:'+CONTACT_EMAIL+'?subject='+encodeURIComponent('Website enquiry – '+svc)+'&body='+encodeURIComponent(body);
+    window.location.href='mailto:'+CONTACT_EMAIL+'?subject='+encodeURIComponent('Website inquiry – '+svc)+'&body='+encodeURIComponent(body);
     s.className='note ok';s.textContent='Opening your email app… if nothing happens, write to '+CONTACT_EMAIL+'.';
   });}
 })();

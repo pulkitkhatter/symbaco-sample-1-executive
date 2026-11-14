@@ -29,3 +29,5 @@
 .sc-foot{font-size:11.5px;color:#5b7a8c;text-align:center;padding:0 12px 10px;background:#fff}
 @media(max-width:520px){#sym-chat{right:10px;left:10px;width:auto;bottom:84px;height:calc(100vh - 110px)}#sym-chat-btn{right:14px;bottom:14px}#sym-chat-btn span{display:none}#sym-chat-btn{padding:15px}}
 @media(prefers-reduced-motion:reduce){#sym-chat.open{animation:none}.sc-typing i{animation:none}}
+
+.sc-foot a{color:#0369a1;font-weight:700;text-decoration:none}.sc-foot a:hover{text-decoration:underline}
